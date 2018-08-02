@@ -28,11 +28,11 @@ body { background-color: #6699ff; }
   <script>
     var selects = prompt('参加人数を入力！');
 
-    var name = [];
+    var nama = [];
 
     for (var i=0; i<selects; i++){
 
-      name[i] = prompt("名前を入力");
+      nama[i] = prompt("名前を入力");
 
     }   
 
@@ -40,15 +40,15 @@ body { background-color: #6699ff; }
 
     for (var i=0; i<selects; i++){
 
-      menu[i] = prompt("支払金額を入力");
+      menu[i] = prompt("各自の支払金額を入力");
 
     } 
 
-     document.write("支払金額は<br>")
+     document.write("各自の支払金額は<br>")
 
     for (var i=0; i<menu.length; i++){
 
-      document.write(name[i] + "さん：" + menu[i] + "円 <br>")
+      document.write(nama[i] + "さん：" + menu[i] + "円 <br>")
 
     }
 
@@ -82,11 +82,11 @@ document.write("<br>支払金の総額：" + kasan[selects-1] + "円<br>")
 
 document.write("一人当たりの分担：" + buntan + "円<br>")
 
-document.write("<br>清算金額は<br>")
+document.write("<br>各自の清算金額は<br>")
 
     for (var i=0; i<menu.length; i++){
 
-      document.write(name[i] + "さん：" + wari[i] + "円 <br>")
+      document.write(nama[i] + "さん：" + wari[i] + "円 <br>")
 
     }
 

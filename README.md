@@ -2,7 +2,7 @@
  <html lang="ja">
  <head>
  <meta charset="UTF-8">
- <title>まほろば_2017</title>
+  <title>人数変動可能な会計</title>
 
 <style type="text/css">
  p {

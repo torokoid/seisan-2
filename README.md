@@ -90,6 +90,7 @@ document.write("<br>各自の清算金額は<br>")
 
     }
 
+document.write ("以上、お帰りも気を付けて、来年も元気に再開～(^^)/");
 </script>
  </section>
 

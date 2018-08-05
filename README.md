@@ -10,7 +10,7 @@ color: #0d0015;
 font-size: 1.5em;
  }
 
-body { background-color: #6699ff; }
+body { background-color: #00ffcc; }
 
 
 </style>

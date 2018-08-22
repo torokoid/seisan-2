@@ -35,7 +35,7 @@ var nama = [];
 
 var menu = [];    
     for (var i=0; i<selects; i++){
-      menu[i] = prompt("各自の支払金額を入力");
+      menu[i] = prompt(nama[i] + "さんの支払金額を入力");
     } 
 
 document.write("各自の支払金額は<br>")
